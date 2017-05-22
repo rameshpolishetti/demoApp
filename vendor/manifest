@@ -52,6 +52,12 @@
 			"repository": "https://github.com/julienschmidt/httprouter",
 			"revision": "975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e",
 			"branch": "master"
+		},
+		{
+			"importpath": "github.com/rameshpolishetti/demoActivity",
+			"repository": "https://github.com/rameshpolishetti/demoActivity",
+			"revision": "3a68bb37f03df4f3194d3e3ebbfdd4a4d422850a",
+			"branch": "master"
 		}
 	]
 }

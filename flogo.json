@@ -17,6 +17,13 @@
             "method": "GET",
             "path": "/test"
           }
+        },
+        {
+          "actionId": "custom_activity_flow",
+          "settings": {
+            "method": "GET",
+            "path": "/customactivity"
+          }
         }
       ]
     }
@@ -41,6 +48,41 @@
                   {
                     "name": "message",
                     "value": "Simple Log",
+                    "type": "string"
+                  }
+                ]
+              }
+            ],
+            "links": [
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "custom_activity_flow",
+      "ref": "github.com/TIBCOSoftware/flogo-contrib/action/flow",
+      "data": {
+        "flow": {
+          "attributes": [],
+          "rootTask": {
+            "id": 1,
+            "type": 1,
+            "tasks": [
+              {
+                "id": 2,
+                "type": 1,
+                "activityRef": "github.com/rameshpolishetti/demoActivity",
+                "name": "demoActivity",
+                "attributes": [
+                  {
+                    "name": "salutation",
+                    "value": "Hello",
+                    "type": "string"
+                  },
+                  {
+                    "name": "name",
+                    "value": "Mashling",
                     "type": "string"
                   }
                 ]
