@@ -1,0 +1,57 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/Sirupsen/logrus",
+			"repository": "https://github.com/Sirupsen/logrus",
+			"revision": "5e5dc898656f695e2a086b8e12559febbfc01562",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/TIBCOSoftware/flogo-contrib/action/flow",
+			"repository": "https://github.com/TIBCOSoftware/flogo-contrib",
+			"revision": "4c0bd8ea3d40deb96fb727f81d07bff482e20844",
+			"branch": "master",
+			"path": "/action/flow"
+		},
+		{
+			"importpath": "github.com/TIBCOSoftware/flogo-contrib/activity/log",
+			"repository": "https://github.com/TIBCOSoftware/flogo-contrib",
+			"revision": "4c0bd8ea3d40deb96fb727f81d07bff482e20844",
+			"branch": "master",
+			"path": "/activity/log"
+		},
+		{
+			"importpath": "github.com/TIBCOSoftware/flogo-contrib/model/simple",
+			"repository": "https://github.com/TIBCOSoftware/flogo-contrib",
+			"revision": "4c0bd8ea3d40deb96fb727f81d07bff482e20844",
+			"branch": "master",
+			"path": "/model/simple"
+		},
+		{
+			"importpath": "github.com/TIBCOSoftware/flogo-contrib/trigger/rest",
+			"repository": "https://github.com/TIBCOSoftware/flogo-contrib",
+			"revision": "4c0bd8ea3d40deb96fb727f81d07bff482e20844",
+			"branch": "master",
+			"path": "/trigger/rest"
+		},
+		{
+			"importpath": "github.com/TIBCOSoftware/flogo-lib",
+			"repository": "https://github.com/TIBCOSoftware/flogo-lib",
+			"revision": "ceb0599bbe542e53df831e38ef00556fb0be0140",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/japm/goScript",
+			"repository": "https://github.com/japm/goScript",
+			"revision": "caab90145b05376536bbab332312f4812123e197",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/julienschmidt/httprouter",
+			"repository": "https://github.com/julienschmidt/httprouter",
+			"revision": "975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e",
+			"branch": "master"
+		}
+	]
+}
